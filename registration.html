@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="registration.css">
+
+
+<!--<img class="circular--square" src="data:image/jpeg;base64,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"style="width:200px; height:200px">-->
+    
+    <style> 
+        body {
+          background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+          height: 100%;
+
+        /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+        background-size: cover;
+
+        }
+        </style>
+    
+
+</head>
+<body>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!--<form action="login.html">-->
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create your Shoppable account.</p>
+
+    <form name="registration">
+  
+
+    <hr>
+
+    <label for="email"><b>Email or Phone Number</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Re-enter Password</b></label>
+    <input type="password" placeholder="Re-enter Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="https://www.shoppable.com/about/terms-of-use">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn" onclick="validate()">Register </button>
+    
+    
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+  </div>
+</form>
+
+
+
+</body>
+
+<script>
+
+function validate(){
+var email=document.getElementById("email").value;
+var psw=document.getElementById("psw").value;
+var repsw = document.getElementById("psw-repeat").value;
+
+var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+var phoneno = /^\d{10}$/;
+
+
+if((mailformat.test(email)==true || phoneno.test(email)==true) && (psw==repsw))
+{
+  swal("Registration Successful! Please login").then(function(){
+        //window.location = "www.google.com";
+        window.open('login.html');
+  });
+}
+
+else if(psw!=repsw){
+  swal("Passwords do not match","Please retry","error");
+}
+else
+swal("Invalid Email or Phone Number");
+}
+</script>
+
+</html>

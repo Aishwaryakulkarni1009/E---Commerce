@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+	text-align: center;
+	padding: 5px;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+/*username and password*/
+input {
+	background-color: rgb(241, 237, 237);
+	border: black;
+	border-radius: 2px;
+    text-align: justify;
+	color: rgb(2, 2, 2);
+}
+
+/*Login text*/
+h1 { 
+	font-family: Raleway;
+    color: #b1417b
+    
+}
+
+/*entire login box*/
+.container {
+
+	font-family: Raleway;
+	border: 2px solid #853d4c;
+	width: 24%;
+	text-align:  center;
+	margin: 10px 50px 75px 550px; /*top,right,bottom,left*/
+	border-radius: 12px;
+	background-color: white;
+	padding-bottom: 10px;
+	-webkit-box-shadow: 3px 0px 10px 0px rgb(240, 234, 234);
+	-moz-box-shadow: 3px 0px 10px 0px rgb(245, 231, 231);
+	box-shadow: 3px 0px 10px 0px rgb(243, 240, 240);
+
+}
+
+/*login button*/
+.submit { 
+	background-color: transparent;
+	color: black;
+	border: 1px solid black;
+	width: 50%;
+	font-family: Booter - Zero Zero;
+	font-size: 18px;
+	/*transition: 0.9s ease;*/
+	text-align: center;
+}
+
+.submit:hover {
+	background-color: #caaebd;
+	color: black;
+	border: 1px solid black;
+	font-family: Booter - Zero Zero;
+	font-size: 12px;
+
+}
+
+.password, .username {
+width: 50%;
+float:right;
+}
+
+body {
+	background-color: rgb(243, 237, 237);
+}
+
+/*shoppable logo*/
+.circular--square {
+    border-radius: 50%;
+    
+  }

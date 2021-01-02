@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(133, 55, 109);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+   padding: 16px;
+    /* background-color: white;*/
+
+    font-family: Raleway;
+	border: 2px solid #853d4c;
+	width: 28%;
+	text-align:  center;
+	margin: 0px 50px 50px 550px; /*top,right,bottom,left*/
+	border-radius: 12px;
+	background-color: white;
+	padding-bottom: 1px;
+	-webkit-box-shadow: 3px 0px 10px 0px rgb(240, 234, 234);
+	-moz-box-shadow: 3px 0px 10px 0px rgb(245, 231, 231);
+	box-shadow: 3px 0px 10px 0px rgb(243, 240, 240);
+
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color: rgb(2, 2, 2);
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #703559;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: rgb(50, 105, 156);
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  /*shoppable logo*/
+.circular--square {
+    border-radius: 50%;
+    
+  }
+
+  h1 { 
+	font-family: Booter - Zero Zero;
+    color: #b1417b
+    
+}
+
+  
